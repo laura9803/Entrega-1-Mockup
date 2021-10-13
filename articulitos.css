@@ -1,0 +1,172 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+.articulos{
+    display: grid;
+    grid-template-columns: 33%, 33%, 33%;
+    grid-template-rows: 1fr, 1fr;
+
+}
+
+.text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.logoClass {
+    margin-left: 3.5%;
+}
+
+.ImageClass {
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.header-options {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.light-text {
+    margin-left: 44px;
+    margin-top: 20px;
+    color: #cccccc;
+}
+
+
+.spaced-flex {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    min-width: 50px;
+    height: 100px;
+}
+
+
+.agendaBoton {
+    color: #3898EC;
+    width: 100px;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 15px;
+}
+
+.nav {
+    width: 100vw;
+    box-shadow: 0px 10px 13px -7px #a5a5a5;
+    height: 110px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+
+.flex {
+    flex: 1;
+}
+
+.bottonFachero {
+    background-color:#3898EC;
+    color: #ffffff;
+    padding: 11px;
+    border: 0;
+    border-radius: 15px;
+}
+
+.arribita { 
+    margin-left:20% ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 3;
+    
+   padding: 20px;
+}
+
+.titulo2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    grid-column: 1;
+
+    
+    padding: 5px;
+
+}
+
+.fotoArribita
+{
+    margin-left:10% ;
+    grid-column: 2;
+}
+
+
+
+
+
+
+.MainTitle{
+    text-align: center;
+    
+}
+.Info{
+    text-align: left;
+    margin-left: 30px;
+    margin: 40px;
+
+}
+.imagencitas{
+    
+    display: flex;
+    justify-content: space-around;  
+    
+    
+
+}
+.Textos{
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 2; 
+    padding: 20px;
+      
+  
+}
+.Tipo1{
+    grid-column: 1;
+    padding: 10px;
+}
+.Tipo2{
+    grid-column: 2;
+    padding: 10px;
+}
+.Tipo3{
+    grid-column: 3;
+    padding: 10px;
+}
+
+.MainTitle, .Info, .Tipo1, .Tipo2, .Tipo3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
