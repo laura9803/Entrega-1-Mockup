@@ -32,7 +32,7 @@ body {
 
 .ImageClass {
     margin-top: 5%;
-    margin-left: 25%;
+    margin-left: 15%;
 }
 
 .header-options {
@@ -164,9 +164,25 @@ body {
     padding: 10px;
 }
 
-.MainTitle, .Info, .Tipo1, .Tipo2, .Tipo3{
+.MainTitle, .Info, .Tipo1, .Tipo2, .Tipo3, .Seccion4_vacunas{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.Seccion4_vacunas{
+    margin: auto;
+    padding: 5%;
+}
+.Titulo4, .parrafo4{
+    margin-bottom: 5%;
+}
+
+.VideoExplicativo{
+    margin-left:25%;
+    margin-bottom: 10%
+    ;
+}
+
+
 
 
 
